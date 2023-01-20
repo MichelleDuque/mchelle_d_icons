@@ -26,4 +26,4 @@ function logID(){
 
 // step 2 - decide how you want the user to ineract with object you created in step 1
 svgGraphic.addEventListener("click", logID);
-jpgGraphic.addEventListener("click", logID)
+jpgGraphic.addEventListener("click", logID);
