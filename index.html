@@ -8,20 +8,164 @@
     <title>.: SVG Icons :.</title>
 </head>
 <body>
-    <header>
-        <h1 class="hidden"> SVG Icon Porject</h1>
+    <header  id="main-header" class="grid">
+        <h1 class="hidden"> Star Wars Icon Porject</h1>
         <!-- put the placeholder header stuff here - icons, nav, logo, etc -->
+        <div class="logo">
+            <img src="images/logo.png" alt="Back Of The Net Logo" id="main-logo">
+        </div>
+        <nav id="main-nav">
+            <h2 class="hidden">Top Navigation</h2>
+            <ul>
+                <li> <a href="index.html" class="active">Home</a></li>
+                <li> <a href="leagues.html">Films</a></li>
+                <li> <a href="fashion.html">Series</a></li>
+                <li> <a href="souvenirs.html">Characters</a></li>
+                <li> <a href="sale.html">Shop</a></li>
+                <li> <a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- icons go here -->
-    <section class="icon-container">
-        
+    <section id="character-nav">
+
+        <ul class="characters">
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="c-3PO"></div>
+                <div class="red-bumper"></div>
+                <h5>C-3PO</h5>
+                <a href=""></a>
+            </li>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="darth-vader"></div>
+                <div class="red-bumper"></div>
+                <h5>Darth Vader</h5>
+                </a>
+            </li>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="r2-d2"></div>
+                <div class="red-bumper"></div>
+                <h5>R2-D2</h5>
+                </a>
+            </li>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="death-star"></div>
+                <div class="red-bumper"></div>
+                <h5>Death Star</h5>
+                </a>
+            </li>
+
+            <li>
+                <a href="#lightbox2">
+                <div class="sprite" id="stormtrooper"></div>
+                <div class="red-bumper"></div>
+                <h5>Stormtrooper</h5>
+                </a>
+            </li>
+            
+            <br>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="at-at"></div>
+                <div class="red-bumper"></div>
+                <h5>AT-AT</h5>
+                </a> 
+            </li>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="yoda"></div>
+                <div class="red-bumper"></div>
+                <h5>Yoda</h5>
+                </a> 
+            </li>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="millennium-falcon"></div>
+                <div class="red-bumper"></div>
+                <h5>Millennium Falcon</h5>
+                </a> 
+            </li>
+
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="tie"></div>
+                <div class="red-bumper"></div>
+                <h5>TIE/LN</h5>
+                </a> 
+            </li>
+
+            <li>
+                <a href="#lightbox">
+                <div class="sprite" id="lightsaber"></div>
+                <div class="red-bumper"></div>
+                <h5>Lightsaber</h5>
+                </a> 
+            </li>
+
+        </ul>
+
     </section>
 
+
+
+
     <!-- put your mocked-up footer stuff here -->
-    <footer>
-        <h2>footer content</h2>
+    <footer class="grid">
+        <nav id="link-footer">
+            <h2 class="hidden">Bottom Navigation</h2>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="leagues.html">Films</a></li> 
+                <li> <a href="fashion.html">Series</a></li> 
+                <li> <a href="souvenirs.html">Caracthers</a></li> 
+                <li> <a href="sale.html">Shop</a></li>
+                <li> <a href="contact.html">Contact us</a></li> 
+            </ul>
+        </nav>
+        <form action="register.php" id="mainform-newsletter" method="post">
+            <h3>Newsletter Sign-Up</h3>
+            <label for="email" class="hidden">Email Address: </label>
+            <input type="email" id="email" name="email" placeholder="Email Address">
+            <button class="button-web" id="button-footer">SUBSCRIBE</button>
+        </form>
     </footer>
+
+    <section class="lightbox" id="lightbox">
+        <a href="" class="lb_close">X</a>
+
+        <article>
+            <h3 class="lb_heading">C-3PO</h3>
+            <p class="lb_text"></p>
+            C-3PO is a droid programmed for etiquette and protocol, built by the heroic Jedi Anakin Skywalker, and a constant companion to astromech R2-D2. Over the years, he was involved in some of the galaxy's most defining moments and thrilling battles -- and is fluent in more than seven million forms of communication.
+            <p class="lb_text"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea reprehenderit saepe cum inventore doloribus, itaque, quae doloremque provident explicabo quam ut voluptas error obcaecati eius expedita quisquam magni. Iste.
+        </article>    
+    </section>
+
+    <section class="lightbox" id="lightbox2">
+        <a href="" class="lb_close">X</a>
+
+        <article>
+            <h3 class="lb_heading">Darth Vader</h3>
+            <p class="lb_text"></p>
+            Discovered as a slave on Tatooine by Qui-Gon Jinn and Obi-Wan Kenobi, Anakin Skywalker had the potential to become one of the most powerful Jedi ever, and was believed by some to be the prophesied Chosen One who would bring balance to the Force.
+            <p class="lb_text"></p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea reprehenderit saepe cum inventore doloribus, itaque, quae doloremque provident explicabo quam ut voluptas error obcaecati eius expedita quisquam magni. Iste.
+        </article>    
+    </section>
+
     <script src="js/main.js"></script>
 </body>
 </html>
