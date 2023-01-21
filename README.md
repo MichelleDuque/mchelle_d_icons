@@ -1,6 +1,6 @@
-# Icon Marketplace
+# STAR WARS
 
-Creating a repo with icon marketplace
+A long time ago in a galaxy far, far away... there was a website.
 
 ## Contributing
 
@@ -14,7 +14,7 @@ Creating a repo with icon marketplace
 
 Michelle Duque De La Rosa
 
-All images are copyright by The Beatles
+All images are copyright by Star Wars
 
 ## License
 
