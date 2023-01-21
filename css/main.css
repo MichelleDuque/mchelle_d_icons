@@ -233,8 +233,8 @@ footer{
 }
 
 
-#smalltext { transition: all 0.5s ease; transform-origin: 50%;}
+/* #smalltext { transition: all 0.5s ease; transform-origin: 50%;}
 
 #newBadge:hover #bg_circle { fill: orange; }
 
-#newBadge:hover #smalltext { fill: white; transform: rotate(130deg); }
+#newBadge:hover #smalltext { fill: white; transform: rotate(130deg); } */

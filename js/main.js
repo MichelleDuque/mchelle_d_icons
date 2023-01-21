@@ -1,21 +1,27 @@
-console.log('JavaScript is running!');
+console.log("Javascript is running");
 
-/* longer JS block comment 
+/* Longer JS Block comment
 - const is a type of variable - a bit of memory that can hold a value
 
-JS uses (can use) ANY valid CSS selector to make a connection to ANY elment on the page - it works the same way as CSS selectors do, because it's USING css selectors to find matching element(s).
+JS used (can use) any valid CSS selector to make a connection to any element on the page - it works the same as CSS selectors do,
+because it's using css selectror to find matvhing element(s).
 
-the document is the DOM - the web page and all of its elements
+The document is the DOM - the web page and all of its elements
 
-querySelector is the method (function) that makes the connection between JS and the DOM (the elements)
+queryselector is the method (function) that makes the connection between JS and the Dom (the elements)
+
 */
 
-// step 1 - make the connection to the element(s) you want to interact with
-const vectorGraphic = document.querySelector('#newBadge');
+// step 1 - Make the connection to the element(s) you want to interact with
 
-function logThisId() {
-    console.log('clicked on this element:', this.id);
+const svgGraphic = document.querySelector("#darthvader"); 
+
+// step 3 - create function
+function logID(){
+    console.log("click on this element:", this.id);
 }
 
-// step 2 - decide how you want the user to interact with the obect you created in step 1
-vectorGraphic.addEventListener('click', logThisId);
+
+
+// step 2 - decide how you want the user to ineract with object you created in step 1
+svgGraphic.addEventListener("click", logID);
